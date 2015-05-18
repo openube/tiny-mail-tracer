@@ -110,7 +110,7 @@ var ext_core = {
 				}
 			}
 
-			if (this._now - Number(timestamp) >= this._one_hour) {
+			if (object_ptr._now - Number(timestamp) >= object_ptr._one_hour) {
 				object_ptr.handle_cache_result('ok, but outdated', nmb, info);
 				return;
 			}

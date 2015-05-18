@@ -1,6 +1,6 @@
 {
 	"name" : "Tiny Mail Tracer",
-	"version": "0.1",
+	"version": "0.2",
 	"manifest_version" : 2,
 	"description": "Improve eBay postal tracking in tiny way.",
 	"author" : "Vladimir Platunov, https://github.com/vo-va",
