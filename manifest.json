@@ -1,6 +1,6 @@
 {
 	"name" : "Tiny Mail Tracer",
-	"version": "0.2",
+	"version": "0.3",
 	"manifest_version" : 2,
 	"description": "Improve eBay postal tracking in tiny way.",
 	"author" : "Vladimir Platunov, https://github.com/vo-va",
@@ -11,7 +11,10 @@
 	"icons": { "128": "mail-postbox-icon.png" },
 	"content_scripts": [
 		{
-			"matches": ["http://www.ebay.com/myb/Summary*"],
+			"matches": [
+				"http://www.ebay.com/myb/Summary*",
+				"http://www.ebay.com/myb/PurchaseHistory*"
+				],
 			"js": [ "main.js"],
 			"css" : [ "main.css" ]
 		}

@@ -47,7 +47,6 @@ var ext_core = {
 		
 		this.tmp_tracks_labels = document.getElementsByClassName('tracking-label');
 
-
 		for (i = 0, len = this.tmp_tracks_labels.length; i < len; i++) {
 			if (this.tmp_tracks_labels[i].getAttribute('data-skip') === 'true') {
 				continue;
